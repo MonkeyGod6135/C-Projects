@@ -8,5 +8,9 @@ int main(void){
     // puts("Hello World!!");
     // output();
     // input();
-    decisions1();
+    //decisions1();
+    //decisions2();
+   // decisions3();
+   //decisions4();
+   //decisions5();
 }
