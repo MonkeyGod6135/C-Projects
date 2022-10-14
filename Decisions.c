@@ -153,7 +153,7 @@ void decisions4(void){
         }
 
         y = false;
-        // short evaluation will not take place
+        // short evaluation will not take place here
          if(x !=1 || y){
             printf("If block executed.\n");
         } else {
