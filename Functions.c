@@ -12,6 +12,7 @@
 void congratulate1(char *student, char *course, char *programmer){
     printf("%s has done as much %s programming as %s. \n",
     student, course, programmer);
+    congratulate2(student, course, programmer);
 }
 
 void congratulate2(char *student, char *course, char *programmer){
