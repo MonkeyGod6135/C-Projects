@@ -7,6 +7,8 @@
 #include "./headers/Functions.h"
 #include "./headers/Pointers.h"
 #include "./headers/PassByReference.h"
+#include "./headers/Assignment.h"
+#include "./headers/AssignmentB.h"
 
 int main(void){
     // puts("Hello World!!");
@@ -45,15 +47,39 @@ int main(void){
      //pointerToNull();
      // Testing Pass by Reference
      //declare doubles for (x,y) point
-     double x =3.0;
-     double y =4.0;
+    // double x =3.0;
+     // double y =4.0;
      // delcare doubles for (radiusPtr, thetaPtr)
-     double radiusPtr;
-     double thetaPtr;
+     // double radiusPtr;
+     // double thetaPtr;
 
      // call cartesianToPolor
      // must use the & to accress an address of a variable
-     cartesianToPolar(x, y, &radiusPtr, &thetaPtr);
+     // cartesianToPolar(x, y, &radiusPtr, &thetaPtr);
 
-     printf("(%.2f, %.2f) equals (%.2f, %.2f) \n", x ,y, radiusPtr, thetaPtr);
+     //printf("(%.2f, %.2f) equals (%.2f, %.2f) \n", x ,y, radiusPtr, thetaPtr);
+
+    /*
+    * Review
+    */
+     // declare and initialize start and stop
+    // local variables
+    //   int start = 0;
+    //   int stop = 10;
+
+    // call oddOrEven providing start and stop variables
+    // as arguments
+    //   oddOrEven(start, stop);
+
+    // call oddOrEvenByReference providing start and stop variables
+    // as arguments
+    //   oddOrEvenByReference(&start, &stop);
+    //   return EXIT_SUCCESS;
+
+     // declare and initialize start and stop
+    // local variables
+     int n = 4;
+     genFactorial(n); 
+     genFactorialReference(n);
+
 }
